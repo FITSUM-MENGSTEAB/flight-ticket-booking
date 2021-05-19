@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+
+.navbar {
+  /* justify-content: space-between; */
+  font-size: 1rem;
+  color: white;
+  background-color:black;
+}
+
+
+.mat-card{
+  color:white;
+  background-color: black;
+  border-radius: 1px;
+  text-align:center;
+  font-size: 0.75rem;
+}
+
+
+.image{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.welcome-note {
+  position: absolute;
+  color: rgb(63, 21, 21);
+  top: 15%;
+  left: 45%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.booking-form{
+  border : solid 2px black;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  font-size: 1rem;
+  z-index: 1;
+  background-color: white;
+  padding: 2px;
+}
+
+.booking-details {
+  border : solid 10px rgb(9, 88, 153);
+  width : 40%;
+  align-items: center;
+  position: absolute;
+  top:  15%;
+  left: 5%;
+  font-size: 1rem;
+  z-index: 1;
+  margin-bottom: 5%px;
+  background-color: white;
+
+}
+table {
+  width: 100%;
+}
+.flight-details-table{
+  color: black;
+  padding: 15px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1rem;
+  color:white;
+  background-color: rgb(9, 51, 139);
+  margin-top:0;
+  height: 30px;
+}
+
+
+.form-full-width {
+  width: 100%;
+}

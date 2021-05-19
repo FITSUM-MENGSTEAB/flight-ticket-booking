@@ -1,0 +1,34 @@
+<!--
+       Page Layout Design
+   ------------------------------
+  | Nave Bar                     |
+  |                              |
+  |       WelCome Note           |
+  |                              |
+  | Footer Bar                   |
+   ------------------------------
+ -->
+<div>
+  <div>
+    <!-- header  -->
+    <mat-toolbar class="navbar">
+      <button mat-button [routerLink]="['']" (click)="reloadCurrentPage()"> Flight Booking </button>
+      <button mat-button [routerLink]="['f-booking']" (click)="navigate()"> Book Ticket </button>
+      <button mat-button [routerLink]="['f-details']" (click)="navigate()"> View Details </button>
+    </mat-toolbar>
+  </div>
+
+  <!-- Welcome Note -->
+  <router-outlet></router-outlet>
+  <div class="image">
+    <img width="100%" height="900px" src="../assets/flight_image.jpg" alt="home-page-flight-image">
+    <div   *ngIf="homePage" class="welcome-note">Welcome to Flight Booking System !<br>
+         <p style="text-align: left; color:black; font-size : 20px; margin :50px 0 0 0"> Quick Guidlines :  </p>
+         <p style="text-align: left; color:black; font-size : 15px"> 1. View Flight Details and Book the flight</p>
+    </div>
+  </div>
+  <div>
+    <!-- Footer  -->
+    <mat-card>@Copy-right 2021 - Flight booking System </mat-card>
+  </div>
+</div>
